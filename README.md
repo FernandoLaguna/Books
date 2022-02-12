@@ -13,11 +13,20 @@ We reviewed a couple of sources trying to get enough information that may help u
 1) Good Reads: A social cataloging website (property of Amazon) where users can register books and create catalogs, reading lists, and rate books. 
 2) ISBNdb: Is the world's largest book database that gathers specific information (title, author, publisher, publish date, etc.) for a vast collection of unique books. 
 
-#### Questions to Answer (Fer)
+#### Questions to Answer
+
+The most important question to answer is whether a new book will be succesfull, based on some characteristics that we have, such as price, number of pages, lenguage, author, publisher, etc.
 
 ### Team Management
 
-#### Github (Fer - Optional)
+#### Technology
+- Git hub to keep record of the progress
+- Python and Pandas to clean up the database
+- Posgres SQL and AWS to keep the databases
+- SQL to join databases
+- Tableu to create dashboards  
+
+
 
 #### Communication Protocols (Marco)
 
