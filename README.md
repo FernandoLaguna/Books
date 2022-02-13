@@ -71,7 +71,7 @@ Finally, the accuracy of the model was measured using the sklearn function accur
 
 ![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Output.png)
 
--Figure 4. Accuracy Score.
+- Figure 4. Accuracy Score.
 
 Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.9816, meaning that the model was correct 98.16% of the time.
 
