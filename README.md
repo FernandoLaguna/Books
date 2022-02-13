@@ -45,5 +45,10 @@ For this first mockup we used the Good Reads basis, our logic here is that the s
 The selected basis contains a rating per book provided by different users that may be used to generate a recommendation and it also contains general information such as Author, Category, Year of Publication & Num of Pages that may be used to explain the rating and, eventually, generate the recommendation.  
 
 ### Machine Learning Model (Francisco)
+For this project, it is asked if a new book published on that year will be successful. All this in order to be able to recommend that book to any user who is looking for a new book. Taking into account that the given dataset in which columns such as: "isbn13", "published_year", "average_rating", "num_pages" and "ratings_count" are displayed; are used to carry out a logistic regression model to be able to predict if the book will be successful or not to later be recommended.
+
+Starting from the fact that all the data from the dataset was labeled and the desired output was also known, the supervised machine learning model called Logistic Regression was chosen to predict the output. Logistic regression predicts binary outcomes, meaning that there are only two possible outcomes. In other words, a logistic regression model analyzes the available data, and when presented with a new sample, mathematically determines its probability of belonging to a class. If the probability is above a certain cutoff point, the sample is assigned to that class. If the probability is less than the cutoff point, the sample is assigned to the other class.
+
+Taking that into account, 
 
 ##
