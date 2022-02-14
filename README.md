@@ -7,6 +7,8 @@
 #### Selected Topic
 Books recommendation
 #### Reasons Why 
+We want to rank whether a book can be recommended to read or not based on its rating given by other users. This given a given range:
+
 
 
 #### Source of Data Decription (Marco)
