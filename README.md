@@ -9,6 +9,8 @@ Books recommendation
 #### Reasons Why 
 We want to rank whether a book can be recommended to read or not based on its rating given by other users. This given a given range:
 
+0 -7: The book is not recommended, since according to most users the reading was not very interesting and may even be nothing interesting.
+
 
 
 #### Source of Data Decription (Marco)
