@@ -11,7 +11,7 @@ We want to rank whether a book can be recommended to read or not based on its ra
 
 0 -7: The book is not recommended, since according to most users the reading was not very interesting and may even be nothing interesting.
 
-
+8 - 10: The book is recommended, since according to most users the reading was interesting, entertaining or fun.
 
 #### Source of Data Decription (Marco)
 
