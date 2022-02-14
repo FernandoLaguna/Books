@@ -4,8 +4,11 @@
 
 ### Introduction
 
-#### Selected Topic (Monse)
-#### Reasons Why (Monse)
+#### Selected Topic
+Books recommendation
+#### Reasons Why 
+
+
 #### Source of Data Decription (Marco)
 
 We reviewed a couple of sources trying to get enough information that may help us to understand and predict how recommendable a book is based on some of its general information. For this purpose, we reviewed the following potential sources: 
