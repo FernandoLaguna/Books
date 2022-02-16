@@ -7,6 +7,7 @@
 ### Glosary
 
 Successful = Recommendable
+
 SQL = Structured Query Language
 
 #### Selected Topic
