@@ -92,4 +92,4 @@ Finally, the accuracy of the model was measured using the sklearn function accur
 
 Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.9816, meaning that the model was correct 98.16% of the time.
 
-###
+##
