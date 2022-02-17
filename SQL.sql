@@ -21,3 +21,11 @@ CREATE TABLE base2 (
 	 ratings_count VARCHAR(15),
      PRIMARY KEY (isbn13)
 );
+
+SELECT b1.isbn, b1.series, b1.language, b1.publisher, b1.price,
+		b2.title, b2.subtitle, b2.authors, b2.categories, b2.published_year,
+		b2.average_rating, b2.num_pages, b2.ratings_count
+INTO book_data
+FROM base1 as b1
+INNER JOIN base2 as b2
+ON b1.isbn = b2.isbn;
