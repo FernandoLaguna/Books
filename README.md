@@ -8,6 +8,8 @@
 
 Successful = Recommendable
 
+SQL = Structured Query Language
+
 #### Selected Topic
 Books recommendation
 
