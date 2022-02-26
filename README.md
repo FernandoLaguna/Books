@@ -86,7 +86,7 @@ Subsequently, the data was preprocessed, the Features (X = "Price", "Pages", "Ra
 
 Finally, the accuracy of the model was measured using the sklearn function accuracy_score
 
-![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/O.png)
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Output.png)
 
 - Figure 4. Accuracy Score.
 
