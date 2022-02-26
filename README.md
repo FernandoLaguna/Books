@@ -68,13 +68,13 @@ Starting from the fact that all the data from the dataset was labeled and the de
 
 Taking that into account, the dataset was imported and an if-else statement was made to classify the average_rating column whether if the book has a "Low_Rating" or a "High_Rating", all this to make a binary outcome possible for the Logistic Regression. It was taken into account that for a book to be classified as recommendable, it must have at least an average rating of 4.5 to be seen as a good book to recommend, if it is below 4.5 it will not be considered a book to recommend. The classification was added in a new column in the dataframe called "Rating_Classification".
 
-![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Binary_classification.png) 
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Binary_Classification.png) 
 
 - Figure 1. Dataframe with the actualized column called "Rating_Classification".
 
 Then, the binary classification was converted to binary numbers. If the book was classified as "High_Rating" it will be assigned the number "1" and if the book was classified as "Low_Rating" it will be assigned the number "0". Along with the other independent variables, a similar method was implemented with the difference that the outcome will be classified as "0" if the variable in the selected column was "Other" and it will be assigned the number "1" if the variable was either 'English'or 'Big' or 'Famous' or 'Serie' or 'Top_Category'. Both methods are shown on the figure below:
 
-![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Binary_classification.png)
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Method.png)
 
 - Figure 2. conversion of string classification to binary classification.
 
@@ -86,7 +86,7 @@ Subsequently, the data was preprocessed, the Features (X = "Price", "Pages", "Ra
 
 Finally, the accuracy of the model was measured using the sklearn function accuracy_score
 
-![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Output.png)
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Result.png)
 
 - Figure 4. Accuracy Score.
 
