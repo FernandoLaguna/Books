@@ -72,7 +72,7 @@ Taking that into account, the dataset was imported and an if-else statement was 
 
 - Figure 1. Dataframe with the actualized column called "Rating_Classification".
 
-Then, the binary classification was converted to binary numbers. If the book was classified as "High_Rating" it will be assigned the number "1" and if the book was classified as "Low_Rating" it will be assigned the number "0".
+Then, the binary classification was converted to binary numbers. If the book was classified as "High_Rating" it will be assigned the number "1" and if the book was classified as "Low_Rating" it will be assigned the number "0". Along with the other independent variables a similar method was implemented with the difference that the outcome will be classified as "0" if the variable in the selected column was "Other" and it will be assigned the number "1" if the variable was either 'English'or 'Big' or 'Famous' or 'Serie' or 'Top_Category'. Both methods are shown on the figure below:
 
 ![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Binary_classification.png)
 
