@@ -62,15 +62,15 @@ By explaining the rating variable:
 
 ### Machine Learning Model 
 
-For this project, it is asked if a new book published on that year will be successful. All this in order to be able to recommend that book to any user who is looking for a new book. Taking into account that the given dataset in which columns such as: "isbn13", "published_year", "average_rating", "num_pages" and "ratings_count" are displayed; those variables were used to carry out a logistic regression model to be able to predict if the book will be successful or not to later be recommended.
+For this project, it is asked if a new book published on that year will be successful. All this in order to be able to recommend that book to any user who is looking for a new book. Taking into account that the cleaned dataset in which columns such as: "Rating", "Price", "Pages", "Rating Count", "Language_Dummy", "Size_Dummy", "Famous_Dummy", "Categories_Dummy" and "Serie_Dummy" are displayed; those variables were used to carry out a logistic regression model to be able to predict if the book will be successful or not to later be recommended to the book store.
 
 Starting from the fact that all the data from the dataset was labeled and the desired output was also known, the supervised machine learning model called Logistic Regression was chosen to predict the output. Logistic regression predicts binary outcomes, meaning that there are only two possible outcomes. In other words, a logistic regression model analyzes the available data, and when presented with a new sample mathematically determines its probability of belonging to a class. If the probability is above a certain cutoff point, the sample is assigned to that class. If the probability is less than the cutoff point, the sample is assigned to the other class.
 
-Taking that into account, the dataset was imported and an if-else statement was made to classify the average_rating column whether if the book has a "Low_Rating" or a "High_Rating", all this to make a binary outcome possible for the Logistic Regression. It was taken into account that for a book to be classified as recommendable, it must have at least an average rating of 4.5 to be seen as a good book to recommend, if it is below 4.5 it will not be considered a book to recommend. The classification was added in a new column in the dataframe called "rating_classification".
+Taking that into account, the dataset was imported and an if-else statement was made to classify the average_rating column whether if the book has a "Low_Rating" or a "High_Rating", all this to make a binary outcome possible for the Logistic Regression. It was taken into account that for a book to be classified as recommendable, it must have at least an average rating of 4.5 to be seen as a good book to recommend, if it is below 4.5 it will not be considered a book to recommend. The classification was added in a new column in the dataframe called "Rating_Classification".
 
 ![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Classification.png) 
 
-- Figure 1. Dataframe with the actualized column called "rating_classification".
+- Figure 1. Dataframe with the actualized column called "Rating_Classification".
 
 Then, the binary classification was converted to binary numbers. If the book was classified as "High_Rating" it will be assigned the number "1" and if the book was classified as "Low_Rating" it will be assigned the number "0".
 
@@ -78,7 +78,7 @@ Then, the binary classification was converted to binary numbers. If the book was
 
 - Figure 2. conversion of string classification to binary classification.
 
-Subsequently, the data was preprocessed, the Features (X = "isbn13", "published_year", "average_rating", "num_pages" and "ratings_count") were separated from the Target (y = rating) and the data was splitted into training and testing; to create the logistic regression model with the arguments to use.
+Subsequently, the data was preprocessed, the Features (X = "Price", "Pages", "Rating Count", "Language_Dummy", "Size_Dummy", "Famous_Dummy", "Categories_Dummy" and "Serie_Dummy") were separated from the Target (y = Rating_Classification) and the data was splitted into training and testing; to create the logistic regression model with the arguments to use.
 
 ![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Model.png)
 
@@ -90,6 +90,6 @@ Finally, the accuracy of the model was measured using the sklearn function accur
 
 - Figure 4. Accuracy Score.
 
-Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.9816, meaning that the model was correct 98.16% of the time.
+Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.9834, meaning that the model was correct 98.34% of the time.
 
 ##
