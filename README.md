@@ -68,7 +68,7 @@ Starting from the fact that all the data from the dataset was labeled and the de
 
 Taking that into account, the dataset was imported and an if-else statement was made to classify the average_rating column whether if the book has a "Low_Rating" or a "High_Rating", all this to make a binary outcome possible for the Logistic Regression. It was taken into account that for a book to be classified as recommendable, it must have at least an average rating of 4.5 to be seen as a good book to recommend, if it is below 4.5 it will not be considered a book to recommend. The classification was added in a new column in the dataframe called "Rating_Classification".
 
-![](https://github.com/FernandoLaguna/Team-4-final-project/blob/Francisco_Diaz/Resources/Classification.png) 
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Binary_classification.png) 
 
 - Figure 1. Dataframe with the actualized column called "Rating_Classification".
 
