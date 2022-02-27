@@ -111,7 +111,8 @@ At this point we developed a blueprint of the Dashboard that we are going to use
 - Final results analysis
 
 [Link to Slides](https://docs.google.com/presentation/d/1QHAKXPc7mmaHnO1m3IXcbPiPKWRwT7FgJuY8JpXvjFQ/edit?usp=sharing)
-[Link to Tableu](https://public.tableau.com/views/Mockupteam4library/Normaldistribution?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
+
+[Link to Tableu](https://public.tableau.com/views/Mockupteam4library/Historia1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 We are going to use Tableau to create most of the graphs and we will include interactivity using filters among graphics in the same dashboard
