@@ -19,10 +19,16 @@ We want to rank whether a book can be recommended to read or not based on some c
 
 #### Source of Data Decription 
 
-We reviewed a couple of sources trying to get enough information that may help us to understand and predict how recommendable a book is based on some of its general information. For this purpose, we reviewed the following potential sources: 
+We reviewed a couple of sources trying to get enough information that may help us to understand and predict how recommendable or succiesful a book may be based on some of its general information. 
+
+For this purpose, we reviewed the following potential sources: 
 
 1) Good Reads: A social cataloging website (property of Amazon) where users can register books and create catalogs, reading lists, and rate books. 
-2) ISBNdb: Is the world's largest book database that gathers specific information (title, author, publisher, publish date, etc.) for a vast collection of unique books. 
+2) ISBNdb: Is the world's largest book database that gathers specific information (title, author, publisher, publish date, etc.) for a vast collection of unique books.
+
+We identified users' ratings as a good proxy for the dependent variable that will be used as a recommendation or measure of success. The rating is provided by independent users without receiving any payment or benefit other than sharing their experience through Good Reads. A potential risk here is that it may exist a bias for if users with higher or lower ratings are more willing to share their experience through rating. 
+
+In the independent side of the analysis, we found potential explanatory variables such as Author, Publisher, Category, Num of Pages, Price, etc. Note a few of these are categorical, thus, will need some cleaning to make them usable. Some other general features such as title or the ISBN, besides surely being useful for the user, do not really have analytical value. 
 
 #### Questions to Answer
 
