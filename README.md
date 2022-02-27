@@ -45,6 +45,18 @@ The plan for the rest of the projects is to keep some similar communication foru
 
 ### Data Base 
 
+To test our model we joined two basis containing different GoodBooks general information, our basis together contained 13 columns mixing categorical and numerical variables that still needed to be cleaned to have an usable basis. 
+
+The executed cleaning process was as follows: 
+
+1) We changed the ISBN column from float to integer type. 
+2) We created a new column from existing language one. For this purpose, we noted English was the major used language from a wide range of different options, thus, we created a new column containing onlye "English" and "Other" entries. 
+3) From Publisher's column we created a dicotomical new column to split the publishers into the biggest ones and the rest as follows: 
+    - If Pubisher is part of quartile 4 based on published books count is consider as "Big".
+    - If Publisher is par of any other quartile is consider as "Other". 
+4) We applied a similar process as previous step to Authors' column. 
+5) For the Categories variable, we noted too much different options, thus, we created a "Top Category" 
+
 For this first mockup we used the Good Reads basis, our logic here is that the selected basis may contain at least: 
 
   - Proxy of a Recommendation: Variable we want to catalog/ forecast. 
