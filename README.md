@@ -58,9 +58,11 @@ The executed cleaning process was as follows:
 5) For the Categories variable, we noted too much different options, thus, we created a "Top Category" including all the categories over the total amount of non-categorized books (NaNs). 
 6) Finally, we created a Dummy variable red flagging any book that is part of a series.
 
-After creating the needed columns we dropped the ones that would not be useful such as the original columns and other ones as Year, Title, Subtitle, etc. we change the columns' labels to something cleaner, we dropped rows with missing information to finally end with a 1968 observations clean basis. 
+After creating the needed columns we dropped the ones that would not be useful such as the original columns and other ones as Year, Title, Subtitle, etc. we change the columns' labels to something cleaner, we dropped rows with missing information to finally end with a 1931 observations clean basis. 
 
-Some basis statistical analysis showed our dependent variable, the books' rating, seems to be 
+Some basic statistical analysis showed that our dependent variable, the books' rating, seems to be normally distributed with a mean near to 4 stars:
+
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Histograma.png) 
 
 ### Machine Learning Model 
 
