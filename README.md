@@ -45,32 +45,22 @@ The plan for the rest of the projects is to keep some similar communication foru
 
 ### Data Base 
 
-To test our model we joined two basis containing different GoodBooks general information, our basis together contained 13 columns mixing categorical and numerical variables that still needed to be cleaned to have an usable basis. 
+To test our model we joined two basis containing different GoodBooks general information, our basis together contained 13 columns mixing categorical and numerical variables that still needed to be cleaned to have a usable basis. 
 
 The executed cleaning process was as follows: 
 
 1) We changed the ISBN column from float to integer type. 
-2) We created a new column from existing language one. For this purpose, we noted English was the major used language from a wide range of different options, thus, we created a new column containing onlye "English" and "Other" entries. 
-3) From Publisher's column we created a dicotomical new column to split the publishers into the biggest ones and the rest as follows: 
-    - If Pubisher is part of quartile 4 based on published books count is consider as "Big".
-    - If Publisher is par of any other quartile is consider as "Other". 
-4) We applied a similar process as previous step to Authors' column. 
-5) For the Categories variable, we noted too much different options, thus, we created a "Top Category" 
+2) We created a new column from the existing language one. For this purpose, we noted English was the major used language from a wide range of different options, thus, we created a new column containing only "English" and "Other" entries. 
+3) From Publisher's column we created a dichotomic new column to split the publishers into the biggest ones and the rest as follows: 
+    - If Publisher is part of quartile 4 based on published books count is considered as "Big".
+    - If Publisher is par of any other quartile is considered as "Other". 
+4) We applied a similar process as the previous step to the Authors' column. 
+5) For the Categories variable, we noted too much different options, thus, we created a "Top Category" including all the categories over the total amount of non-categorized books (NaNs). 
+6) Finally, we created a Dummy variable red flagging any book that is part of a series.
 
-For this first mockup we used the Good Reads basis, our logic here is that the selected basis may contain at least: 
+After creating the needed columns we dropped the ones that would not be useful such as the original columns and other ones as Year, Title, Subtitle, etc. we change the columns' labels to something cleaner, we dropped rows with missing information to finally end with a 1968 observations clean basis. 
 
-  - Proxy of a Recommendation: Variable we want to catalog/ forecast. 
-
-  - Book's General Information: Variables we want to use to explain the Recommendation. 
-
-The selected basis contains a rating per book provided by different users that may be used to generate a recommendation and it also contains general information such as ISBN, author, category, year of publication & num of pages that may be used to explain the rating and, eventually, generate the recommendation.  
-
-By explaining the rating variable:
-
-0 - 4.5: The book has a bad score, since according to the user the reading was not very interesting and may even be nothing interesting.
-
-> 4.5: The book has a good score, since according to the user the reading was interesting, entertaining or fun.
-
+Some basis statistical analysis showed our dependent variable, the books' rating, seems to be 
 
 ### Machine Learning Model 
 
