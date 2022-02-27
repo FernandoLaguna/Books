@@ -102,4 +102,20 @@ Finally, the accuracy of the model was measured using the sklearn function accur
 
 Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.9834, meaning that the model was correct 98.34% of the time.
 
+#### Dashboard
+
+At this point we developed a blueprint of the Dashboard that we are going to use in he following objectives:
+
+- Description analysis of the dependent variable
+- Description analysis of independent variables
+- Final results analysis
+
+[Link to Slides](https://docs.google.com/presentation/d/1QHAKXPc7mmaHnO1m3IXcbPiPKWRwT7FgJuY8JpXvjFQ/edit?usp=sharing)
+[Link to Tableu](https://public.tableau.com/views/Mockupteam4library/Normaldistribution?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
+
+
+We are going to use Tableau to create most of the graphs and we will include interactivity using filters among graphics in the same dashboard
+
+
+
 
