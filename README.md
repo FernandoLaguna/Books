@@ -62,7 +62,7 @@ After creating the needed columns we dropped the ones that would not be useful s
 
 Some basic statistical analysis showed that our dependent variable, the books' rating, seems to be normally distributed with a mean near to 4 stars:
 
-![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Histograma.png) 
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/b976276afb4dd768ea4d770b0c40e148d382934c/Resources/Histograma.PNG) 
 
 ### Machine Learning Model 
 
