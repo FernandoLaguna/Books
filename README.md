@@ -114,6 +114,7 @@ At this point we developed a blueprint of the Dashboard that we are going to use
 
 [Link to Tableu](https://public.tableau.com/views/Mockupteam4library/Historia1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)
 
+[Link to Googleslides](https://docs.google.com/presentation/d/1tM8aZvxKISQ-U1wi3Y5_5zH2LTV7miPL/edit?usp=sharing&ouid=111510050410609883004&rtpof=true&sd=true)
 
 We are going to use Tableau to create most of the graphs and we will include interactivity using filters among graphics in the same dashboard
 
