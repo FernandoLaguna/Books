@@ -2,6 +2,8 @@
 
 ## Book's Recommendations Based with Machine Learning 
 
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/books.jpg)
+
 ### Introduction
 We are a professional agency called "Dux" in which we provide the decision-making advice service for a company. We are situated in the current situation where an emerging "Legere" bookstore wants to buy a certain amount of books with their budget to start their business, however they cannot decide which books to choose. We were offered the opportunity to help the bookstore make the decision of a lifetime to sell the best books to their customers. 
 
