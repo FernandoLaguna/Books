@@ -3,6 +3,7 @@
 ## Book's Recommendations Based with Machine Learning 
 
 ### Introduction
+We are a professional agency called "Dux" in which we provide the decision-making advice service for a company. We are situated in the current situation where an emerging "Legere" bookstore wants to buy a certain amount of books with their budget to start their business, however they cannot decide which books to choose. We were offered the opportunity to help the bookstore make the decision of a lifetime to sell the best books to their customers. 
 
 ### Glosary
 
@@ -11,13 +12,13 @@ Successful = Recommendable
 SQL = Structured Query Language
 
 #### Selected Topic
-Books recommendation
+Books recommendation using a Machine Learning Model
 
 #### Reasons Why 
 
-We want to rank whether a book can be recommended to read or not based on some characteristics of the books. 
+As a professional agency, our priority is to provide the best quality in our service, which is market research, and to help our clients lay the foundations for their beginnings. That said, our reason for implementing a machine learning model to conduct the study is to provide the best solution using the disciplines of artificial intelligence. Our motto is: "We'll find the way".
 
-#### Source of Data Decription 
+#### Source of Data Description 
 
 We reviewed a couple of sources trying to get enough information that may help us to understand and predict how recommendable or succiesful a book may be based on some of its general information. 
 
