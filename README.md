@@ -105,7 +105,15 @@ Finally, the accuracy of the model was measured using the sklearn function accur
 
 - Figure 4. Accuracy Score.
 
-Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.9834, meaning that the model was correct 98.34% of the time.
+Taking into account that the accuracy score is simply the percentage of predictions that are correct. In this case, the model's accuracy score was 0.7068, meaning that the model was correct 70.68% of the time.
+
+Additionally, a Confusion Matrix was performed as an alternative to assess the Logistic Regression Model's performance. The results are shown below:
+
+![](https://github.com/FernandoLaguna/Team-4-final-project/blob/main/Resources/Confusion_Matrix.png)
+
+- Figure 5. Confusion Matrix.
+
+The precision for prediction of the unsuccessful books and susccessful books are not quite in line with each other. However, the recall (sensitivity) for predicting unsuccessful is much higher than it is for predicting the hot-selling books. The lower recall for successful books is reflected in the dropped F1 score as well. That being said, we based our evaluation and recommendations on predicting unsuccessful books to our client. That means that if we have 100 books to recommend we can surely discard 70% of them (The true negatives) and the rest (The false negatives) should be recommended to the client.
 
 ### __:chart_with_upwards_trend:Dashboard__
 
