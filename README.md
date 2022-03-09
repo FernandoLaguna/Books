@@ -113,7 +113,7 @@ Additionally, a Confusion Matrix was performed as an alternative to assess the L
 
 - Figure 5. Confusion Matrix.
 
-The precision for prediction of the unsuccessful books and susccessful books are not quite in line with each other. However, the recall (sensitivity) for predicting unsuccessful is much higher than it is for predicting the hot-selling books. The lower recall for successful books is reflected in the dropped F1 score as well. That being said, we based our evaluation and recommendations on predicting unsuccessful books to our client. That means that if we have 100 books to recommend we can surely discard 70% of them (The true negatives) and the rest (The false negatives) should be recommended to the client.
+The precision for prediction of the unsuccessful books and susccessful books are not quite in line with each other. However, the recall (sensitivity) for predicting unsuccessful books is much higher than it is for predicting the hot-selling books. The lower recall for successful books is reflected in the dropped F1 score as well. That being said, we based our evaluation and recommendations on predicting unsuccessful books to our client. That means that if we have 100 books to recommend we can surely discard 70% of them (The true negatives) and the rest (The false negatives) should be recommended to the client.
 
 ### __:chart_with_upwards_trend:Dashboard__
 
