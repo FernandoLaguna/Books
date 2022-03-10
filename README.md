@@ -129,7 +129,7 @@ At this point we developed a blueprint of the Dashboard that we are going to use
 
 :blue_book:[Link to Googleslides](https://docs.google.com/presentation/d/1fDC47FWGow_oamPD-XP4dQovwSqyBnYu/edit?usp=sharing&ouid=111510050410609883004&rtpof=true&sd=true)
 
-:pink_book:[Link_to_Canva](https://www.canva.com/design/DAE5mNcBgGQ/Mkw9kL7qtp87mqg6eow4Aw/view?utm_content=DAE5mNcBgGQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+:orange_book:[Link_to_Canva](https://www.canva.com/design/DAE5mNcBgGQ/Mkw9kL7qtp87mqg6eow4Aw/view?utm_content=DAE5mNcBgGQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 We are going to use Tableau to create most of the graphs and we will include interactivity using filters among graphics in the same dashboard.
 
